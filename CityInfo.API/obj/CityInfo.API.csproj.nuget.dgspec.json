@@ -1,0 +1,113 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kingnarnode\\source\\repos\\CityInfo.API\\CityInfo.API\\CityInfo.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kingnarnode\\source\\repos\\CityInfo.API\\CityInfo.API\\CityInfo.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kingnarnode\\source\\repos\\CityInfo.API\\CityInfo.API\\CityInfo.API.csproj",
+        "projectName": "CityInfo.API",
+        "projectPath": "C:\\Users\\kingnarnode\\source\\repos\\CityInfo.API\\CityInfo.API\\CityInfo.API.csproj",
+        "packagesPath": "C:\\Users\\kingnarnode\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kingnarnode\\source\\repos\\CityInfo.API\\CityInfo.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kingnarnode\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "EntityFramework.SqlServerCompact": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.AspNet.Identity.EntityFramework": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.6.3, )"
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.6.3, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "NLog.InstallNLogConfig": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "NLog.Schema": {
+              "target": "Package",
+              "version": "[4.6.3, )"
+            },
+            "NLog.Web": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "NLog.Windows.Forms": {
+              "target": "Package",
+              "version": "[4.2.3, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

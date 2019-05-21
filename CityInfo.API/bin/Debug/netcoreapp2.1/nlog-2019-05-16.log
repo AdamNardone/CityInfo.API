@@ -1,0 +1,43 @@
+2019-05-16 13:59:12.2177|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44389/  
+2019-05-16 13:59:12.2177|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:51210/  0
+2019-05-16 13:59:12.3344|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 124.9979ms 200 
+2019-05-16 13:59:12.4838|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 271.8865ms 404 text/plain
+2019-05-16 13:59:15.0125|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44389/api/cities/5/pointsofinterest/ application/json 135
+2019-05-16 13:59:15.0571|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetPointsOfInterest", controller = "PointsOfInterest"}. Executing action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)
+2019-05-16 13:59:15.0881|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) with arguments (5) - Validation state: Valid
+2019-05-16 13:59:15.1397|FATAL|CityInfo.API.Controllers.PointsOfInterestController|Exception while getting points of interest for city with id 5.
+2019-05-16 13:59:15.1397|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 51.9108ms.
+2019-05-16 13:59:15.1563|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'.
+2019-05-16 13:59:15.1650|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) in 99.4984ms
+2019-05-16 13:59:15.1650|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 160.7916ms 500 text/plain; charset=utf-8
+2019-05-16 13:59:15.1889|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLMQ50PRQ8MB", Request id "0HLMQ50PRQ8MB:00000002": the application completed without reading the entire request body.
+2019-05-16 13:59:30.8165|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44389/api/cities/5/pointsofinterest/ application/json 135
+2019-05-16 13:59:30.8262|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetPointsOfInterest", controller = "PointsOfInterest"}. Executing action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)
+2019-05-16 13:59:30.8368|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) with arguments (5) - Validation state: Valid
+2019-05-16 13:59:30.8724|FATAL|CityInfo.API.Controllers.PointsOfInterestController|Exception while getting points of interest for city with id 5.
+2019-05-16 13:59:30.8724|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 35.4533ms.
+2019-05-16 13:59:30.8724|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'.
+2019-05-16 13:59:30.8843|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) in 53.0103ms
+2019-05-16 13:59:30.8843|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 72.1688ms 500 text/plain; charset=utf-8
+2019-05-16 13:59:30.9017|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLMQ50PRQ8MA", Request id "0HLMQ50PRQ8MA:00000002": the application completed without reading the entire request body.
+2019-05-16 14:00:04.5839|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44389/api/cities/5/pointsofinterest/ application/json 135
+2019-05-16 14:00:04.5998|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetPointsOfInterest", controller = "PointsOfInterest"}. Executing action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API)
+2019-05-16 14:00:04.6117|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) with arguments (5) - Validation state: Valid
+2019-05-16 14:00:04.6481|FATAL|CityInfo.API.Controllers.PointsOfInterestController|Exception while getting points of interest for city with id 5.
+2019-05-16 14:00:04.6571|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 36.6753ms.
+2019-05-16 14:00:04.6571|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'.
+2019-05-16 14:00:04.6683|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) in 63.2695ms
+2019-05-16 14:00:04.6809|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 92.794ms 500 text/plain; charset=utf-8
+2019-05-16 14:00:04.6809|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLMQ50PRQ8MB", Request id "0HLMQ50PRQ8MB:00000003": the application completed without reading the entire request body.
+2019-05-16 14:34:14.6013|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44389/  
+2019-05-16 14:34:14.6013|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:51210/  0
+2019-05-16 14:34:14.7203|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 123.884ms 200 
+2019-05-16 14:34:14.8749|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 276.7967ms 404 text/plain
+2019-05-16 14:34:22.2811|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:44389/api/cities/1/pointsofinterest/1 application/json 135
+2019-05-16 14:34:22.3229|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)
+2019-05-16 14:34:22.3569|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) with arguments (1, 1) - Validation state: Valid
+2019-05-16 14:34:37.9811|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 15617.5789ms.
+2019-05-16 14:34:37.9811|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2019-05-16 14:34:38.0043|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 15673.347ms
+2019-05-16 14:34:38.0191|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 15737.7895ms 204 
+2019-05-16 14:34:38.0385|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLMQ5KCDE8U4", Request id "0HLMQ5KCDE8U4:00000002": the application completed without reading the entire request body.

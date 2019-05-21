@@ -1,0 +1,7 @@
+2019-05-19 12:29:21.8933|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2019-05-19 12:29:22.3102|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51210/api/cities/1 application/json 135
+2019-05-19 12:29:22.3102|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51210/  
+2019-05-19 12:29:22.3240|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLMSESJ5P1VF", Request id "0HLMSESJ5P1VF:00000001": An unhandled exception was thrown by the application.
+2019-05-19 12:29:22.3240|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 15.604ms 500 
+2019-05-19 12:29:22.6009|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 291.3599ms 500 text/html; charset=utf-8
+2019-05-19 12:29:22.6108|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLMSESJ5P1VF", Request id "0HLMSESJ5P1VF:00000001": the application completed without reading the entire request body.

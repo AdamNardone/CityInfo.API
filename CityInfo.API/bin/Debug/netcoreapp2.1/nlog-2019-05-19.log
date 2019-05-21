@@ -1,0 +1,144 @@
+2019-05-19 11:56:17.3711|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:51210/  0
+2019-05-19 11:56:17.3711|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44389/  
+2019-05-19 11:56:17.5025|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 139.2592ms 200 
+2019-05-19 11:56:17.6332|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 270.4453ms 404 text/plain
+2019-05-19 11:56:28.1955|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:44389/api/cities/1/pointsofinterest/2 application/json 135
+2019-05-19 11:56:28.2687|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)
+2019-05-19 11:56:28.2955|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) with arguments (1, 2) - Validation state: Valid
+2019-05-19 11:56:28.2955|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 9.3483ms.
+2019-05-19 11:56:28.3185|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2019-05-19 11:56:28.3185|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 48.8752ms
+2019-05-19 11:56:28.3308|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 135.3682ms 204 
+2019-05-19 11:56:28.3308|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLMSEA3JN7PP", Request id "0HLMSEA3JN7PP:00000002": the application completed without reading the entire request body.
+2019-05-19 11:58:28.2801|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:44389/api/cities/1/pointsofinterest/1 application/json 135
+2019-05-19 11:58:28.2936|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)
+2019-05-19 11:58:28.3166|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) with arguments (1, 1) - Validation state: Valid
+2019-05-19 11:58:28.3166|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 6.0376ms.
+2019-05-19 11:58:28.3301|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2019-05-19 11:58:28.3301|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 36.8968ms
+2019-05-19 11:58:28.3476|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 63.892ms 204 
+2019-05-19 11:58:28.3476|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLMSEA3JN7PQ", Request id "0HLMSEA3JN7PQ:00000001": the application completed without reading the entire request body.
+2019-05-19 12:00:51.5756|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:51210/  0
+2019-05-19 12:00:51.5756|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44389/  
+2019-05-19 12:00:51.7473|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 177.7449ms 200 
+2019-05-19 12:00:51.8828|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 314.4995ms 404 text/plain
+2019-05-19 12:00:59.2584|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:44389/api/cities/1/pointsofinterest/1 application/json 135
+2019-05-19 12:00:59.2994|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)
+2019-05-19 12:00:59.3384|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) with arguments (1, 1) - Validation state: Valid
+2019-05-19 12:00:59.3526|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 8.8351ms.
+2019-05-19 12:00:59.3608|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2019-05-19 12:00:59.3608|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 60.3224ms
+2019-05-19 12:00:59.3608|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 114.8001ms 204 
+2019-05-19 12:00:59.3883|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLMSECLAH121", Request id "0HLMSECLAH121:00000002": the application completed without reading the entire request body.
+2019-05-19 12:22:02.2341|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2019-05-19 12:22:02.8940|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:51210/  0
+2019-05-19 12:22:02.8940|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51210/  
+2019-05-19 12:22:02.9406|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 70.617ms 500 text/html; charset=utf-8
+2019-05-19 12:22:03.1083|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLMSEOG6P66U", Request id "0HLMSEOG6P66U:00000001": An unhandled exception was thrown by the application.
+2019-05-19 12:22:03.1127|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 242.9456ms 500 
+2019-05-19 12:23:44.6206|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2019-05-19 12:23:45.0602|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:51210/  0
+2019-05-19 12:23:45.0602|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51210/  
+2019-05-19 12:23:45.2383|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLMSEPEL6AI0", Request id "0HLMSEPEL6AI0:00000001": An unhandled exception was thrown by the application.
+2019-05-19 12:23:45.2514|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 186.3758ms 500 text/html; charset=utf-8
+2019-05-19 12:23:45.2514|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 201.1844ms 500 
+2019-05-19 12:23:59.6623|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51210/api/cities  
+2019-05-19 12:23:59.6623|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 13.016ms 500 text/html; charset=utf-8
+2019-05-19 12:24:15.1372|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51210/api/cities/1  
+2019-05-19 12:24:15.1484|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 17.0926ms 500 text/html; charset=utf-8
+2019-05-19 12:24:35.9250|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51210/api/cities/1 application/json 135
+2019-05-19 12:24:35.9465|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 43.2587ms 500 text/html; charset=utf-8
+2019-05-19 12:24:35.9702|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLMSEPEL6AI0", Request id "0HLMSEPEL6AI0:00000004": the application completed without reading the entire request body.
+2019-05-19 12:26:04.1788|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51210/api/cities/1 application/json 135
+2019-05-19 12:26:04.1879|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.9673ms 500 text/html; charset=utf-8
+2019-05-19 12:26:04.2099|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLMSEPEL6AI2", Request id "0HLMSEPEL6AI2:00000001": the application completed without reading the entire request body.
+2019-05-19 12:26:45.1014|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2019-05-19 12:26:45.4474|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:51210/  0
+2019-05-19 12:26:45.4474|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51210/  
+2019-05-19 12:26:45.4692|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLMSER4DKN9C", Request id "0HLMSER4DKN9C:00000001": An unhandled exception was thrown by the application.
+2019-05-19 12:26:45.4692|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 28.4176ms 500 
+2019-05-19 12:26:45.4692|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 28.2547ms 500 text/html; charset=utf-8
+2019-05-19 12:27:23.4182|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51210/ application/json 135
+2019-05-19 12:27:23.4381|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 21.7363ms 500 text/html; charset=utf-8
+2019-05-19 12:27:23.4632|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLMSER4DKN9D", Request id "0HLMSER4DKN9D:00000002": the application completed without reading the entire request body.
+2019-05-19 12:27:49.0280|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51210/api/cities/1 application/json 135
+2019-05-19 12:27:49.0405|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 28.7355ms 500 text/html; charset=utf-8
+2019-05-19 12:27:49.0764|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLMSER4DKN9D", Request id "0HLMSER4DKN9D:00000003": the application completed without reading the entire request body.
+2019-05-19 12:27:55.0291|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51210/api/cities/1  
+2019-05-19 12:27:55.0369|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.6466ms 500 text/html; charset=utf-8
+2019-05-19 12:29:43.9592|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2019-05-19 12:29:44.3594|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51210/  
+2019-05-19 12:29:44.3594|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:51210/  0
+2019-05-19 12:29:44.3844|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLMSESPNRUJF", Request id "0HLMSESPNRUJF:00000001": An unhandled exception was thrown by the application.
+2019-05-19 12:29:44.3924|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 35.0461ms 500 
+2019-05-19 12:29:44.3924|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 32.213ms 500 text/html; charset=utf-8
+2019-05-19 12:31:20.5556|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:51210/  0
+2019-05-19 12:31:20.5556|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51210/  
+2019-05-19 12:31:20.6571|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 108.5976ms 200 
+2019-05-19 12:31:20.7755|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 227.4817ms 404 text/plain
+2019-05-19 12:31:28.2287|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51210/api/cities/1 application/json 135
+2019-05-19 12:31:28.2698|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetCity", controller = "Cities"}. Executing action CityInfo.API.Controllers.CitiesController.GetCity (CityInfo.API)
+2019-05-19 12:31:28.2981|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.CitiesController.GetCity (CityInfo.API) with arguments (1) - Validation state: Valid
+2019-05-19 12:31:28.3198|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.CitiesController.GetCity (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 14.0382ms.
+2019-05-19 12:31:28.3302|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'CityInfo.API.Models.CityDto'.
+2019-05-19 12:31:28.6606|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.CitiesController.GetCity (CityInfo.API) in 379.4239ms
+2019-05-19 12:31:28.6606|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 448.3115ms 200 application/json; charset=utf-8
+2019-05-19 12:31:28.6851|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLMSETMD8007", Request id "0HLMSETMD8007:00000002": the application completed without reading the entire request body.
+2019-05-19 12:33:39.6879|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2019-05-19 12:33:39.9169|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51210/  
+2019-05-19 12:33:39.9169|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:51210/  0
+2019-05-19 12:33:39.9383|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLMSEUVUB4JQ", Request id "0HLMSEUVUB4JQ:00000001": An unhandled exception was thrown by the application.
+2019-05-19 12:33:39.9383|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 27.5587ms 500 text/html; charset=utf-8
+2019-05-19 12:33:39.9383|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 30.166ms 500 
+2019-05-19 12:34:08.4121|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51210/api/cities/1 application/json 135
+2019-05-19 12:34:08.4310|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 18.5911ms 500 text/html; charset=utf-8
+2019-05-19 12:34:08.4478|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLMSEUVUB4JP", Request id "0HLMSEUVUB4JP:00000002": the application completed without reading the entire request body.
+2019-05-19 13:55:57.6819|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51210/api/cities/1 application/json 135
+2019-05-19 13:55:57.6819|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51210/  
+2019-05-19 13:55:57.6819|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:51210/  0
+2019-05-19 13:55:57.8809|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 207.1525ms 200 
+2019-05-19 13:55:58.3928|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 720.0171ms 404 text/plain
+2019-05-19 13:55:58.7117|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetCity", controller = "Cities"}. Executing action CityInfo.API.Controllers.CitiesController.GetCity (CityInfo.API)
+2019-05-19 13:55:58.9305|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.CitiesController.GetCity (CityInfo.API) with arguments (1) - Validation state: Valid
+2019-05-19 13:55:59.0454|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.CitiesController.GetCity (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 106.7506ms.
+2019-05-19 13:55:59.0579|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'CityInfo.API.Models.CityDto'.
+2019-05-19 13:55:59.4169|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.CitiesController.GetCity (CityInfo.API) in 695.0759ms
+2019-05-19 13:55:59.4388|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1770.3227ms 200 application/json; charset=utf-8
+2019-05-19 13:55:59.5019|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLMSGCVG4AQ0", Request id "0HLMSGCVG4AQ0:00000001": the application completed without reading the entire request body.
+2019-05-19 15:35:28.5876|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51210/  
+2019-05-19 15:35:28.5876|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:51210/  0
+2019-05-19 15:35:28.7223|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 143.9248ms 200 
+2019-05-19 15:35:28.8811|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 304.6783ms 404 text/plain
+2019-05-19 15:35:38.0824|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51210/api/testdatabase application/json 135
+2019-05-19 15:35:38.1252|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "TestDatabase", controller = "Dummy"}. Executing action CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API)
+2019-05-19 15:35:38.9860|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.8-servicing-32085 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-05-19 15:35:52.6363|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (664ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [CityInfoDB];
+2019-05-19 15:35:52.9214|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (280ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [CityInfoDB] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2019-05-19 15:35:52.9994|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Cities] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Description] nvarchar(200) NULL,
+    CONSTRAINT [PK_Cities] PRIMARY KEY ([Id])
+);
+2019-05-19 15:35:53.0215|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (17ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [PointsOfInterest] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [CityId] int NOT NULL,
+    CONSTRAINT [PK_PointsOfInterest] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_PointsOfInterest_Cities_CityId] FOREIGN KEY ([CityId]) REFERENCES [Cities] ([Id]) ON DELETE CASCADE
+);
+2019-05-19 15:35:53.0215|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_PointsOfInterest_CityId] ON [PointsOfInterest] ([CityId]);
+2019-05-19 15:35:53.0386|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API) - Validation state: Valid
+2019-05-19 15:35:53.0386|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.3566ms.
+2019-05-19 15:35:53.0637|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2019-05-19 15:35:53.0637|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API) in 14938.5614ms
+2019-05-19 15:35:53.0833|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14998.181ms 200 
+2019-05-19 15:35:53.0967|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLMSI4IVA2QE", Request id "0HLMSI4IVA2QE:00000002": the application completed without reading the entire request body.
